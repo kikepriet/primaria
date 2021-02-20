@@ -1,0 +1,14 @@
+Documentar mis avances con el proyecto de consulta de primaria, idea, boceto, interfaz, pruebas y deploy
+
+Para las tablas usaré el carrousel de imágenes de biitstrap 4
+
+Para los nombre de los números una función con javascript onclick
+
+Para la ranita una función drag and drop
+https://www.w3schools.com/howto/howto_js_draggable.asp
+
+Para las operaciones (sumas y restas) uaré validación con javascript
+
+Para la fecha y valor del mes una función switch
+
+para las lecturas tendra que se de una base de datos con la función para cambaiar un id ramdom entre los numeros 1 y max.lenght y después ir sumando los cuentos uno a uno.
