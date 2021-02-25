@@ -1,0 +1,20 @@
+/*FUENTES*/
+
+@font-face {
+    font-family: Gothic;
+    src: url(../fonts/GOTHIC.TTF);
+    }
+
+    
+/*ETIQUETAS*/
+
+*{
+    font-family: 'Gothic', sans-serif;
+}
+
+
+/*CLASES*/
+
+.card-title{
+    font-weight: bold !important;
+}

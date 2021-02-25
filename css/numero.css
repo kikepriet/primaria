@@ -1,0 +1,41 @@
+/*ETIQUETAS*/
+
+table{
+    background-color: rgb(234, 148, 255);
+    text-align: center;
+}
+
+/*IDS*/
+
+#numero{
+    font-size: xx-large;
+}
+
+/*CLASES*/
+
+.centena{
+    color: yellow;
+}
+.decena{
+    color: red;
+}
+.unidad{
+    color: blue;
+}
+
+.centena, .decena, .unidad{
+    font-weight: bold;
+}
+
+.form-group{
+    text-align: center !important;
+}
+
+.num{
+    width: 200px !important;
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/*MEDIA QUERY*/

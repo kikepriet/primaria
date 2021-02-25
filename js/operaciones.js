@@ -8,9 +8,9 @@ let caja = 0;
 function revisar(){
     caja = document.getElementById("caja").value;
     if(resultado == caja){
-        document.getElementById("resultado").innerHTML = "<i class='fas fa-check text-success'></i>" + "<p>¡CORRECTO!, presiona <strong>F5</strong> para seguir jugando</p>";
+        document.getElementById("resultado").innerHTML = "<i class='fas fa-check text-success'></i>" + "&nbsp;" +  "<span>¡CORRECTO!, presiona <strong>F5</strong> para seguir jugando</span>";
     } else {
-        document.getElementById("resultado").innerHTML = "<i class='fas fa-times text-danger'></i>" + "<p>Incorrecto, presiona <strong>F5</strong> para intentarlo otra vez</p>";
+        document.getElementById("resultado").innerHTML = "<i class='fas fa-times text-danger'></i>" + "&nbsp;" +  "<span>Incorrecto, presiona <strong>F5</strong> para intentarlo otra vez</span>";
     }
 }
 

@@ -1,3 +1,22 @@
+/*Fuentes*/
+
+
+/*Etiquetas*/
+
+
+/*Clases*/
+
 .rojo{
     color: red;
 }
+
+
+/*Ids*/
+
+#fecha, #valorDelMes, #nombreUsuario{
+    text-align: center;
+}
+
+
+/*Media query*/
+

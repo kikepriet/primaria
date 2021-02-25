@@ -2,7 +2,8 @@ let numero = 0;
 function nombreNumero(){
     numero = document.getElementById("num").value;
 /* 0 - 100 */
-if(numero == 0){document.getElementById("numero").innerHTML = "cero"}
+if(numero == "" || numero == " " || numero == "  " || numero == "   "){document.getElementById("numero").innerHTML = "<span class='text-black-50'>---</span>"}
+else if(numero == 0){document.getElementById("numero").innerHTML = "cero"}
 else if(numero == 1){document.getElementById("numero").innerHTML = "uno"}
 else if(numero == 2){document.getElementById("numero").innerHTML = "dos"}
 else if(numero == 3){document.getElementById("numero").innerHTML = "tres"}
@@ -1020,6 +1021,6 @@ else if(numero == 996){document.getElementById("numero").innerHTML = "noveciento
 else if(numero == 997){document.getElementById("numero").innerHTML = "novecientos noventa y siete"}
 else if(numero == 998){document.getElementById("numero").innerHTML = "novecientos noventa y ocho"}
 else if(numero == 999){document.getElementById("numero").innerHTML = "novecientos noventa y nueve"}
-else {document.getElementById("numero").innerHTML = "Solo acepto números"};
+else {document.getElementById("numero").innerHTML = "<span class='text-danger'>Solo acepto números</span>"};
 
 }

@@ -7,16 +7,116 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Proyecto primaria</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/numero.css">
+    <link rel="stylesheet" href="../css/letras.css">
     <script src="../js/numeros.js"></script>
 </head>
 <body>
 
-    <input type="text" id="num" name="num" class="num" maxlength="3">
-   
-   
-   <input type="button" onclick="nombreNumero();" value="enviar">
+    <!--NAV BAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="letras.html">letras </a>
+        <a class="nav-link" href="numero.html">números</a>
+        <a class="nav-link" href="tablaDel1.html">tablas</a>
+        <a class="nav-link" href="operaciones.html">sumas</a>
+        <a class="nav-link" href="../php/cuento.php">lecturas</a>
+      </div>
+    </div>
+  </nav>
+  <!--/NAV BAR-->
 
-   <div id="numero"></div>
+<div class="container">
+    <div class="row mt-3">
+        <!--PRIMERA COLUMNA-->
+        <div class="col-6">
+            <div class="instrucciones">
+                <h4>Instrucciones:</h4>
+                    <ul>
+                        <li>Aqui podras ver cómo se escriben los número con letra</li>
+                        <li>Coloca el número en el recuadro de abajo</li>
+                        <li>Haz clic en el botón "¿cómo se escribe?"</li>
+                    </ul>
+            </div>
+            <div class="numero">
+                <form class="form" action="">
+                    <div class="form-group">
+                        <input type="text" id="num" name="num" class="form-control mt-2 num" maxlength="3">
+                        <input type="button" class="btn btn-primary mt-2" onclick="nombreNumero();" value="¿cómo se escribe?">
+                    </div>
+                </form>
+                <div id="numero" class="text-center"></div>
+            </div>
+        </div>
+        <!--/PRIMERA COLUMNA-->
+
+        <!--SEGUNDA COLUMNA-->
+        <div class="col-6">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Centenas</th>
+                    <th scope="col">Decenas</th>
+                    <th scope="col">Unidades</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="centena">1 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">1 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">1 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">2 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">2 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">2 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">3 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">3 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">3 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">4 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">4 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">4 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">5 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">5 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">5 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">6 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">6 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">6 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">7 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">7 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">7 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">8 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">8 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">8 </span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="centena">9 </span><span class="decena">0 </span><span class="unidad">0</span></td>
+                    <td><span class="decena">9 </span><span class="unidad">0 </span></td>
+                    <td><span class="unidad">9 </span></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <!--/SEGUNDA COLUMNA-->       
+    </div>
+</div>
 
 
    
