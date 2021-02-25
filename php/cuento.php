@@ -15,7 +15,7 @@
         include 'conexion.php';
         header('Content-Type: text/html; charset=UTF-8');
         $numero = rand(1, 10); //el máximo debe ser el número de cuentos en la db
-        $sql = "SELECT * FROM cuentos WHERE id = 1"; //sustituir id por $numero
+        $sql = "SELECT * FROM cuentos WHERE id = $numero"; //sustituir id por $numero
         $result = $conexion->query($sql);
         $row = $result->fetch_assoc();
         echo "<h1 class='mt-5 text-center display-1'>" . utf8_encode($row["titulo"]) . "</h1>";
