@@ -71,5 +71,10 @@ function fecha(){
     }
     
     // Concatenamos html y variables para que tenga sentido a la hora de leerlo por pantalla
+<<<<<<< HEAD
        document.getElementById('fecha').innerHTML = "<span class='rojo'>H</span>oy es " + dia + " " + fecha + " de " + mes + " de " + anio;
 }
+=======
+       document.getElementById('fecha').innerHTML = dia + " " + fecha + " de " + mes + " de " + anio;
+}
+>>>>>>> b838f85 (retomando el proyecto)

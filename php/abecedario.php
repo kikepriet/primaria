@@ -1,0 +1,256 @@
+<?php include 'plantilla/header.php'; include 'plantilla/navbar.php'; ?>
+
+
+<div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-4">
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">A a</h5>
+                  <p class="card-text">a</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">B b</h5>
+                  <p class="card-text">be</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">C c</h5>
+                  <p class="card-text">ce</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">D d</h5>
+                  <p class="card-text">de</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">E e</h5>
+                  <p class="card-text">e</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">F f</h5>
+                  <p class="card-text">efe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">G g</h5>
+                  <p class="card-text">ge</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">H h</h5>
+                  <p class="card-text">ache</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">I i</h5>
+                  <p class="card-text">i</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">J j</h5>
+                  <p class="card-text">jota</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">K k</h5>
+                  <p class="card-text">ka</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">L l</h5>
+                  <p class="card-text">ele</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">M m</h5>
+                  <p class="card-text">eme</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">N n</h5>
+                  <p class="card-text">ene</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Ñ ñ</h5>
+                  <p class="card-text">eñe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">O o</h5>
+                  <p class="card-text">o</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">P p</h5>
+                  <p class="card-text">pe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Q q</h5>
+                  <p class="card-text">cu</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">R r</h5>
+                  <p class="card-text">erre</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">S s</h5>
+                  <p class="card-text">ese</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">T t</h5>
+                  <p class="card-text">te</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">U u</h5>
+                  <p class="card-text">u</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">V v</h5>
+                  <p class="card-text">uve</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">W w</h5>
+                  <p class="card-text">doble u</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">X x</h5>
+                  <p class="card-text">equis</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Y y</h5>
+                  <p class="card-text">i griega</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Z z</h5>
+                  <p class="card-text">zeta</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<?php include 'plantilla/footer.php'; ?>

@@ -13,6 +13,13 @@ table{
 
 /*CLASES*/
 
+<<<<<<< HEAD
+=======
+.millar{
+    color: green;
+}
+
+>>>>>>> b838f85 (retomando el proyecto)
 .centena{
     color: yellow;
 }
@@ -23,7 +30,11 @@ table{
     color: blue;
 }
 
+<<<<<<< HEAD
 .centena, .decena, .unidad{
+=======
+.millar, .centena, .decena, .unidad{
+>>>>>>> b838f85 (retomando el proyecto)
     font-weight: bold;
 }
 
